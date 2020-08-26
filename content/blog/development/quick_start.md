@@ -2,7 +2,11 @@
 title: 'Quick Start'
 date: 2020-07-05 17:21:13
 category: 'development'
+<<<<<<< HEAD
 draft: true
+=======
+draft: false
+>>>>>>> a9a921c5156eeffefd7e803e8ba7b31c5f2fa077
 ---
 
 # Getting Started 😎
