@@ -6,7 +6,7 @@ draft: false
 slug: "getsby-tutorial-set-up-dev-env"
 category: "Web Development"
 tags:
-  - "Web Development"
+  - "gatsby" 
 description: "Gatsby.js 빌딩 블록"
 socialImage: ""
 ---
@@ -79,7 +79,7 @@ export default function Home() {
 
 ![picture 4](images/5cadc8518dc752f284078fce42565ca13566cd77ecb181610fadb857313e8b43.png)
 
-### 잠깐... 자바스크립트 안에 HTML?
+### 잠깐... 자바스크립트 안에 HTML
 
 JSX라는 React용 JavaScript 구문 확장임.
 
@@ -98,7 +98,7 @@ export default function Home() {
 
 Gatsby 플러그인이 알아서 JSX를 js, html로 변환해줌.
 
-### Components로 빌드.
+### Components로 빌드
 
 방금 우리는 컴포넌트로 구성요소를 정의해 홈페이지를 만들었다.
 컴포넌트가 뭐지?
@@ -174,7 +174,7 @@ export default function Header(props) {
 
 ![picture 3](images/86acc5f2cfbb896895552e8a4a3ea6ed1b69fd787cecbb99538cc2d74a212297.png)
 
-### 잠깐. props가 뭐임?
+### 잠깐. props가 뭐임
 
 재사용 가능한 조각의 동적 제작을 위해
 다른 데이터를 제공할 수 있어야 한다. (ex 문구)

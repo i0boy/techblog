@@ -2,16 +2,12 @@
 title: 'Quick Start'
 date: 2020-07-05 17:21:13
 category: 'development'
-<<<<<<< HEAD
 draft: true
-=======
-draft: false
->>>>>>> a9a921c5156eeffefd7e803e8ba7b31c5f2fa077
 ---
 
 # Getting Started 😎
 
-## 1. Create a Gatsby site.
+## 1. Create a Gatsby site
 
 ```sh
 # create a new Gatsby site using the blog starter
@@ -21,11 +17,11 @@ $ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-be
 > If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
 
 ```sh
-$ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+npm install -g gatsby-cli
+gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
 ```
 
-## 2. Start developing.
+## 2. Start developing
 
 ```sh
 $ cd my-blog-starter/
@@ -47,7 +43,7 @@ You can write...
 ![](./images/cli-tool-example.gif)
 
 ```sh
-$ npm run post
+npm run post
 ```
 
 ## 4. Fix meta data
@@ -66,7 +62,7 @@ You can fix meta data of blog in `/gatsby-meta-config.js` file.
 }
 ```
 
-# :memo: Write a post!
+# :memo: Write a post
 
 ```
 content
@@ -77,7 +73,7 @@ content
 - You can register your resume on the web. (in `__about` directory)
 - You can register your post. (in `blog` directory)
 
-# 🧐 Customize!
+# 🧐 Customize
 
 ## Gatsby config
 

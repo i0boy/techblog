@@ -126,3 +126,12 @@ test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>
 echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 source ~/.bashrc # 하여 WSL 재시작 하고, .bashrc 파일을 로딩 했다면 brew 명령어를 사용할 수 있게 되었으므로 공식 사이트처럼 Hello World를 설치해 본다.
 ```
+
+Zsh 로 기본쉘로 적용하고 나서는 ~/.bash_profile 대신에 ~/.zshrc 를 사용하게 됩니다.  
+즉, 기존의 bash 쉘을 사용할때는 ~/.bash_profile 에 설정값을 저장하는데, zsh 를 사용하면 ~/.zshrc 에 설정해야 합니다.  
+
+ex) jenv/bin 을 패스에 추가하기  
+
+```shell
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+```
